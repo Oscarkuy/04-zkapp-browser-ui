@@ -1,0 +1,716 @@
+html,
+body {
+  background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.86a02568.png);
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+.Home_container__bCOhY {
+  padding: 0 2rem;
+}
+
+.Home_main__nLjiQ {
+  padding: 25px;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Home_footer____T7K {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.Home_footerbg__XmJ88 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/footer.1427bc1e.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-radius: 10px;
+	background-size: cover;
+	width: 500px;
+	height: 85px;
+	position: absolute;
+	left: 200px;
+	top: 480px;
+}
+
+.Home_title__T09hD a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.Home_title__T09hD a:hover,
+.Home_title__T09hD a:focus,
+.Home_title__T09hD a:active {
+  text-decoration: underline;
+}
+
+.Home_title__T09hD {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.Home_title__T09hD,
+.Home_description__41Owk {
+  text-align: center;
+}
+
+.Home_description__41Owk {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.Home_code__suPER {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.Home_grid__GxQ85 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.Home_card___LpL1 {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.Home_card___LpL1:hover,
+.Home_card___LpL1:focus,
+.Home_card___LpL1:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.Home_card___LpL1 h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.Home_card___LpL1 p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.Home_homepage__o_ei3 {
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -50px;
+	width: 900px;
+	height: 600px;
+	transform: scale(1);
+}
+
+.Home_homepageImg__fcRDd {
+	display: block;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/homepageImg.301e8807.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+}
+
+.Home_banner__WnS5R {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/banner.74f93ca8.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 450px;
+	height: 100px;
+	position: absolute;
+	top: 150px;
+}
+
+.Home_banner2__nEGJg {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/banner2.e396bb46.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 140px;
+	position: absolute;
+	top: 245px;
+}
+
+.Home_connectBtn__q4_OB {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn1.05cdef24.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 180px;
+	height: 70px;
+	position: absolute;
+	right: 360px;
+	top: 395px;
+}
+
+.Home_connectBtn__q4_OB:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn2.c5651583.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	width: 180px;
+	height: 70px;
+	position: absolute;
+	right: 360px;
+	top: 395px;
+}
+
+.Home_connectBtn__q4_OB:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/connectBtn3.d31334f5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 180px;
+	height: 70px;
+	position: absolute;
+	right: 360px;
+	top: 395px;
+}
+
+.Home_loading__IsZ5F {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/loading.00f1b095.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 155px;
+}
+
+.Home_sendLoading__Zkd01 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.0bbbbfa4.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 350px;
+	top: 165px;
+}
+
+.Home_sendCheck__xMz4p {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/check.5d76fed1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 400px;
+	top: 265px;
+}
+
+.Home_sendDone__abENy {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/senddone.0d886c8b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	left: 320px;
+	top: 200px;
+}
+
+.Home_caution__VEpHP {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/caution.c83a01cf.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 140px;
+	height: 120px;
+	position: absolute;
+	top: 170px;
+}
+
+.Home_success__cqYiE {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/success.9c5bf121.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 170px;
+}
+
+.Home_statusTxt__dVex8 {
+	display: block;
+	position: absolute;
+	top: 290px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	background-color: #c1c6c6;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_statusSendTxt___A48X {
+	display: block;
+	position: absolute;
+	left: 320px;
+	top: 375px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_walletLink__QYgFg {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 390px;
+	color: white;
+	background-color: #c1c6c6;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_walletTxt__aVJtU {
+	display: block;
+	position: absolute;
+	top: 370px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	background-color: #c1c6c6;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetTxt__R0HSg {
+	display: block;
+	position: absolute;
+	left: 215px;
+	top: 350px;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_faucetHere__TRzkn {
+	display: block;
+	position: absolute;
+	left: 390px;
+	top: 370px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.Home_sendBtn__F6hw6 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn1.3a381682.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	left: 230px;
+	top: 395px;
+}
+
+.Home_sendBtn__F6hw6:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn2.3275ee51.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	left: 230px;
+	top: 395px;
+}
+
+.Home_sendBtn__F6hw6:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn3.35e11132.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	left: 230px;
+	top: 395px;
+}
+
+.Home_sendBtnDisable__6VyTK {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/sendBtn3.35e11132.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	left: 230px;
+	top: 395px;
+}
+
+.Home_getBtn__h_3sY {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn1.dd6c200b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	right: 230px;
+	top: 395px;
+}
+
+.Home_getBtn__h_3sY:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn2.874db3f3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	right: 230px;
+	top: 395px;
+}
+
+.Home_getBtn__h_3sY:active {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn3.6dbbc88b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	right: 230px;
+	top: 395px;
+}
+
+.Home_getBtnDisable__ASdt7 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/getBtn3.6dbbc88b.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 185px;
+	height: 70px;
+	position: absolute;
+	right: 230px;
+	top: 395px;
+}
+
+.Home_txtState__XfTmO {
+	display: block;
+	position: absolute;
+	left: 330px;
+	top: 195px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_numState__RWB8u {
+	display: block;
+	position: absolute;
+	left: 360px;
+	top: 230px;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_txtAddrs__0j0LW {
+	display: block;
+	position: absolute;
+	left: 280px;
+	top: 350px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	height: 20px;
+	width: 400px;
+	background-color: #c1c6c6;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_addrs__ciNE1 {
+	display: block;
+	position: absolute;
+	left: 225px;
+	top: 348px;
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	height: 20px;
+	width: 60px;
+	background-color: #c1c6c6;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.Home_getscreen__MZw5Y{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+.Home_getscreenBlack__Krl3p {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/black.96836c7e.png);
+	background-size: repeat;
+	width: 900px;
+	height: 545px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.5;
+ transform: scale(1.5); /* you can change the value also */
+   transform-origin: center;
+}
+
+.Home_getscreenImg__WMr9D {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/screen.913f14c5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 380px;
+	height: 330px;
+	position: absolute;
+	left: 260px;
+	top: 120px;
+}
+
+.Home_sendscreen__P9tsM{
+	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	width: 900px;
+	height: 600px;
+}
+
+.Home_sendscreenBlack__x7Fq9 {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/black.96836c7e.png);
+	background-size: cover;
+	width: 900px;
+	height: 545px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 0.5;
+ transform: scale(1.5); /* you can change the value also */
+   transform-origin: center;
+}
+
+.Home_sendscreenImg__5SKtV {
+	display: block;
+	display: flex;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/send.26d15463.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 250px;
+	top: 70px;
+}
+
+.Home_closeGet__qG2td {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.64a6762c.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 430px;
+	top: 130px;
+}
+
+.Home_closeGet__qG2td:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.128e4f59.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 430px;
+	top: 130px;
+}
+
+.Home_closeSend__b_1LB {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn1.64a6762c.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 580px;
+	top: 90px;
+}
+
+.Home_closeSend__b_1LB:hover {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/closeBtn2.128e4f59.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 580px;
+	top: 90px;
+}
+
+.Home_twitIcon__QkSo1 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/twiticon1.0b35ac4c.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 310px;
+	top: 570px;
+}
+
+.Home_dcIcon__DDy4R {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/dcicon1.adc31213.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	right: 310px;
+	top: 570px;
+}
+
+.Home_gitIcon__L23x5 {
+	display: block;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/giticon1.d550c2b6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 415px;
+	top: 570px;
+}
+
+
+@media (max-width: 600px) {
+  .Home_grid__GxQ85 {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .Home_card___LpL1,
+  .Home_footer____T7K {
+    border-color: #222;
+  }
+  .Home_code__suPER {
+    background: #111;
+  }
+
+   
+  
+}
+
